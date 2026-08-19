@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "axios": "^1.14.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "jwt-decode": "^4.0.0",
+    "mongoose": "^9.8.0",
+    "path": "^0.12.7",
+    "react": "^19.2.4"
+  }
+}

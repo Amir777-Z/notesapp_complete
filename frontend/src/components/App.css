@@ -1,0 +1,186 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination:active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+.page-number {
+  padding: 6px 12px;
+  margin: 2px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  font-weight: 400;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Selected page button */
+.page-number.active {
+  background-color: rgb(22, 207, 22); /* green */
+  color: white;
+  font-weight: bold;
+  cursor: not-allowed;
+}
+
+/* Hover effect on unselected buttons only */
+.page-number:hover:not(.active) {
+  background-color: #f0f0f0; /* subtle gray */
+  border-color: #888;
+  color: black;
+}
+
+.first {
+  padding: 6px 12px;
+  margin: 2px;
+  background-color: white;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  color: black;
+}
+
+/* Disabled state of navigation buttons */
+.first:disabled {
+  background-color: #ccc;
+  color: #666; /* ensure text is still visible */
+  cursor: not-allowed;
+}
+.previous {
+  padding: 6px 12px;
+  margin: 2px;
+  background-color: white;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  color: black;
+}
+
+/* Disabled state of navigation buttons */
+.previous:disabled {
+  background-color: #ccc;
+  color: #666; /* ensure text is still visible */
+  cursor: not-allowed;
+}
+.next {
+  padding: 6px 12px;
+  margin: 2px;
+  background-color: white;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  color: black;
+}
+
+/* Disabled state of navigation buttons */
+.next:disabled {
+  background-color: #ccc;
+  color: #666; /* ensure text is still visible */
+  cursor: not-allowed;
+}
+.last {
+  padding: 6px 12px;
+  margin: 2px;
+  background-color: white;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  color: black;
+}
+
+/* Disabled state of navigation buttons */
+.last:disabled {
+  background-color: #ccc;
+  color: #666; /* ensure text is still visible */
+  cursor: not-allowed;
+}
+
+.top-right-nav {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 1000;
+}
+
+.nav-button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  background-color: #3b82f6; /* Tailwind blue-500 */
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.nav-button:hover {
+  background-color: #2563eb; /* Tailwind blue-600 */
+}
+
