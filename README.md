@@ -4,8 +4,8 @@ A fullstack notes application built as a university assignment. Users can regist
 
 ## Screenshots
 
-![Notification area](./screenshots/Notification-area.webp)
-![Pagination](./screenshots/Pagination.webp)
+![Notification area](./Screenshots/Notification-area.webp)
+![Pagination](./Screenshots/Pagination.webp)
 
 ## Tech Stack
 
